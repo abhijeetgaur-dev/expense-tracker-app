@@ -1,0 +1,128 @@
+# =========================================================================
+# Node.js & TypeScript (Root & Backend)
+# =========================================================================
+node_modules/
+jspm_packages/
+web_reach/
+dist/
+dist-ssr/
+build/
+out/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment configs and secrets (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+*.json
+!package.json
+!tsconfig.json
+!pnpm-workspace.yaml
+!*firebase*config*.json
+!firebase.json
+firebase-service-account.json
+backend/firebase-service-account.json
+backend/.env
+
+# Drizzle migration backups or local SQLite files if any
+*.db
+*.db-journal
+
+# =========================================================================
+# Flutter & Dart (Frontend)
+# =========================================================================
+# Flutter/Dart build and tool directories
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/frontend/build/
+/frontend/.dart_tool/
+/frontend/.packages
+/frontend/.flutter-plugins
+/frontend/.flutter-plugins-dependencies
+/frontend/.pub-cache/
+/frontend/.pub/
+
+# Symbol lookup specifications
+frontend/android/app/src/main/res/raw/app.user.cfg
+
+# Flutter web build directory
+frontend/build/web/
+
+# Android-specific ignores
+/frontend/android/.gradle/
+/frontend/android/local.properties
+/frontend/android/key.properties
+/frontend/android/app/build/
+/frontend/android/app/src/main/assets/flutter_assets/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# iOS-specific ignores
+/frontend/ios/.symlinks/
+/frontend/ios/Pods/
+/frontend/ios/Flutter/Generated.xcconfig
+/frontend/ios/Flutter/flutter_export_environment.sh
+/frontend/ios/Flutter/App.framework
+/frontend/ios/Flutter/Info.plist
+/frontend/ios/Runner/GeneratedPluginRegistrant.h
+/frontend/ios/Runner/GeneratedPluginRegistrant.m
+/frontend/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+/frontend/ios/Runner/Assets.xcassets/LaunchImage.imageset/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+xcshareddata/
+!default.xcshareddata
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# =========================================================================
+# IDEs & System Files
+# =========================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.code-workspace
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+desktop.ini
